@@ -1,2 +1,2 @@
 FROM fedora:latest
-RUN dnf update && dnf install rclone
+RUN dnf install -y rclone
